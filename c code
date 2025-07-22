@@ -29,3 +29,11 @@ for(i=0;i<n;i++){
 }
 return 0;
 }
+
+output
+enter size of array:4
+enter elements in 1: 4
+enter elements in 2: 0
+enter elements in 3: 0
+enter elements in 4: 7
+4700
