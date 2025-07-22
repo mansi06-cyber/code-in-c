@@ -1,0 +1,31 @@
+# code-in-c
+program in c to push all the zeros present in an array to the right 
+#include<stdio.h>
+int main()
+{
+    int n; int arr[100];int i;int count=0;
+    printf("enter size of array:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter elements in %d: ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(arr[i]!=0){
+        arr[count]=arr[i];
+        count++;
+        }
+    }
+    for(i=count;i<n;i++)
+    {
+        arr[count]=0;
+        count++;
+    }
+    
+for(i=0;i<n;i++){
+    printf("%d",arr[i]);
+}
+return 0;
+}
